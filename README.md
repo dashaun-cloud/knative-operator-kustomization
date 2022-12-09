@@ -18,6 +18,7 @@ flux create source git knative-operator \
 flux create kustomization knative-operator \
   --target-namespace=default \
   --source=knative-operator \
+  --path="./kustomize" \
   --prune=true \
   --interval=5m \
   --export > ./clusters/cluster00/knative-operator-kustomization.yaml
