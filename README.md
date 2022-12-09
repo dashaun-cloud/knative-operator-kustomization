@@ -1,4 +1,4 @@
-# Knative Operator Kustomiation
+# Knative Operator Kustomization
 
 For use with [FluxCD](https://fluxcd.io) to deploy the [Knative Operator](https://knative.dev)
 
